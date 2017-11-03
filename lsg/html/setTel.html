@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/style.css" rel="stylesheet" />
+		<link href="../css/page/setTel.css" rel="stylesheet" />
+		<script src="../libs/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../libs/mui.min.js"></script>
+		<script src="../libs/app.js"></script>
+		<script src="../libs/zepto_1.2.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon mui-icon-arrowleft mui-pull-left"></a>
+			<h1 class="mui-title">修改手机号</h1>
+		</header>
+		<div class="mui-content">
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<img class="img-size" src="../img/id.png"/>
+					<input type="text" class="input mui-input-clear input-font" id="mobile" placeholder="请输入手机号" maxlength="11">
+				</div>
+				<div class="mui-input-row code-box">
+					<img class="img-size" src="../img/code.png"/>
+					<button type="button" class="code-btn">获取短信验证码</button>
+					<input id='mobileCaptcha' type="text" class="input input-font" placeholder="请输入验证码" maxlength="6">
+				</div>
+			</form>
+			<div class="btn-box">
+				<button class="notarize" data-loading-text="提交中...">完成</button>
+			</div>
+		</div>
+<script src="../commonjs/constants.js"></script>
+		<script src="../js/setTel.js"></script>
+	</body>
+
+</html>

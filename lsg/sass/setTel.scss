@@ -1,0 +1,77 @@
+@import "mixin";
+.mui-content {
+    /*background: red;*/
+    height: 100%;
+}
+
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0;
+}
+.mui-input-group .input{
+    width: 50%;
+    padding-left: 0;
+}
+.mui-input-row {
+    @include px2rem(width, 622px);
+    margin: 0 auto;
+    @include px2rem(margin-bottom,48px);
+}
+
+.mui-input-row .img-size {
+    @include px2rem(width,36px);
+    @include px2rem(height,40px);
+    vertical-align: middle;
+    @include px2rem(margin-right,32px);
+}
+.mui-input-row label~input {
+    float: left;
+}
+
+.mui-input-group:after {
+    height: 0;
+}
+
+.mui-input-group .mui-input-row:after {
+    position: absolute;
+    @include px2rem(right,30px);
+    bottom: 0;
+   @include px2rem(left,60px);
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ddd;
+}
+
+.code-box {
+    position: relative;
+}
+
+.code-box .code-btn {
+    position: absolute;
+    @include px2rem(top,10px);
+    @include px2rem(right,20px);
+    @include font-dpr(32px);
+    color: #FFB348;
+    border: none;
+}
+
+.arrows {
+    @include font-dpr(30px);
+    color: #999;
+}
+
+.btn-box {
+    @include px2rem(margin-top,56px);
+    text-align: center;
+}
+
+.notarize {
+    @include px2rem(width,622px);
+    @include px2rem(height,88px);
+    background: #ffb348;
+    @include font-dpr(36px);
+    color: #fff;
+   @include border-radius-dpr(50px)
+    border: none;
+}

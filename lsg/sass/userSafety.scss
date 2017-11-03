@@ -1,0 +1,21 @@
+@import "mixin";
+.mui-content>.mui-table-view:first-child {
+    margin-top:0;
+}
+.mui-content{background:#F3F5F7;height:100%;}
+i{
+     font-style:normal;
+}
+.mui-navigate-right{
+    @include font-dpr(30px);
+    color:#222;
+}
+.font{
+    float:right;
+    @include px2rem(margin-right, 40px);
+    @include font-dpr(28px);
+    color:#999;
+    }
+.top{
+     @include px2rem(margin-top,24px);
+}

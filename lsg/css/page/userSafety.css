@@ -1,0 +1,32 @@
+.mui-content > .mui-table-view:first-child {
+  margin-top: 0; }
+
+.mui-content {
+  background: #F3F5F7;
+  height: 100%; }
+
+i {
+  font-style: normal; }
+
+.mui-navigate-right {
+  color: #222; }
+  .mui-navigate-right {
+    font-size: 15px; }
+  [data-dpr="2"] .mui-navigate-right {
+    font-size: 30px; }
+  [data-dpr="3"] .mui-navigate-right {
+    font-size: 45px; }
+
+.font {
+  float: right;
+  margin-right: 0.53333rem;
+  color: #999; }
+  .font {
+    font-size: 14px; }
+  [data-dpr="2"] .font {
+    font-size: 28px; }
+  [data-dpr="3"] .font {
+    font-size: 42px; }
+
+.top {
+  margin-top: 0.32rem; }

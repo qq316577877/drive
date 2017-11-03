@@ -1,0 +1,22 @@
+{
+  "name": "lsg",
+  "version": "1.0.0",
+  "description": "set px-rem ",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://YDZ@192.168.2.31/fruit/drivers-frontend.git"
+  },
+  "keywords": [
+    "YY940525"
+  ],
+  "author": "yangdezong",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

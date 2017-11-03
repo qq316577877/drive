@@ -1,0 +1,68 @@
+@import "mixin";
+.mui-content>.mui-table-view:first-child {
+    margin-top:0;
+}
+i{
+     font-style:normal;
+}
+.mui-navigate-right{
+    @include font-dpr(30px);
+    color:#222;
+}
+.mui-content .font{
+    float:right;
+    @include px2rem(margin-right,40px);
+    @include font-dpr(28px);
+    color:#999;
+    }
+.arrows{
+    @include font-dpr(30px);
+    color:#999;
+}
+.blank{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    @include px2rem(height,24px);
+    background:#F3f5f7 ;
+}
+.blank:after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    height: 1px;
+    content: '';
+    background-color: #d7d7d7;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+
+.btn-box{
+    @include px2rem(margin-top,256px);
+    text-align: center;
+}
+.exit {
+    @include px2rem(width,622px);
+    @include px2rem(height,88px);
+    background: #ffb348;
+    @include font-dpr(36px);
+    color: #fff;
+    @include border-radius-dpr(50px) 
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    @include px2rem(padding-bottom,64px);
+    text-align: center;
+}
+
+.footer .font {
+    @include font-dpr(26px);
+    color: #666;
+}

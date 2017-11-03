@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="flexible" content="initial-dpr=2" />
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/style.css" rel="stylesheet" />
+		<link href="../css/page/login.css" rel="stylesheet" />
+		<script src="../libs/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../libs/zepto_1.2.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../libs/mui.min.js"></script>
+		<script src="../libs/app.js"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">登录</h1>
+		</header>
+		<div class="mui-content">
+			<form class="mui-input-group">
+
+				<div class="mui-input-row">
+					<img class="img-size" src="../img/id.png" />
+					<input id='mobile' type="text" class="input" placeholder="请输入手机号" maxlength="11">
+				</div>
+
+				<div class="mui-input-row code-box">
+					<img class="img-size" src="../img/code.png" />
+					<button type="button" class="code-btn">获取短信验证码</button>
+					<input id='mobileCaptcha' type="text" class="input" placeholder="请输入验证码" maxlength="6">
+				</div>
+			</form>
+			<div class="btn-box">
+				<button type="button" id='sendMail' class="login">登录</button>
+			</div>
+		</div>
+		<div id="mapobj"></div>
+		<footer class="footer">
+			<p class="font">联系我们</p>
+			<p class="font">400-826-5128</p>
+		</footer>
+		<script src="../commonjs/constants.js"></script>
+		<script src="../libs/update.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/login.js"></script>
+	</body>
+
+</html>
